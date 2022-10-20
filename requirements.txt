@@ -1,0 +1,3 @@
+wheel
+json_log_formatter
+git+https://github.com/OT-PYTHON-UTILS/ot-logging-libs.git
