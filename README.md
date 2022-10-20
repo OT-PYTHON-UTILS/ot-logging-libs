@@ -11,14 +11,25 @@ This library contains logging module:
 -----------------------------------------
 
 ## Installing
-<b>pip install -r requirements.txt</b>
+Create a *<b>requirements.txt</b>* file where you want to use this library and mention the url 'git+https://github.com/OT-PYTHON-UTILS/ot-logging-libs.git' along with the libraries required for the python code to execute and install it with below command.
+* <b>pip install -r requirements.txt</b>
 
 ## Library Calling
 
 <b>from otlogginglibs import logging</b>
 
 ## Example 
+### <b>requirements.txt</b>
 
+``` 
+wheel
+json_log_formatter
+git+https://github.com/OT-PYTHON-UTILS/ot-logging-libs.git
+```
+
+</b>pip install -r requirements.txt</b>
+
+### <b>test_logger.py</b>
 ```
 from otlogginglibs import logging
 
